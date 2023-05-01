@@ -1,6 +1,6 @@
 {
   "name": "echo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple package that echoes user value",
   "main": "index.js",
   "scripts": {
