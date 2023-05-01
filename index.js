@@ -1,5 +1,9 @@
-function echo(value) {
-  for(let i=0;i<5;i++) {
+function echo(value, count) {
+  if (count === undefined) {
+    count = 5;
+  }
+
+  for(let i=0;i<count;i++) {
     console.log('echo:', value);
   }
 }
