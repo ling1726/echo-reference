@@ -1,10 +1,8 @@
-function echo(value, count) {
-  if (count === undefined) {
-    count = 5;
-  }
+function echo(value, options) {
+  const { count = 5, prefix = 'echo:'} = options
 
   for(let i=0;i<count;i++) {
-    console.log('echo:', value);
+    console.log(prefix, value);
   }
 }
 
